@@ -1,0 +1,34 @@
+.Question {
+    width: 30rem;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.Question-description {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.Question ul {
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.Question-option {
+    display: block;
+    margin: 0.5rem;
+    padding: 0.8rem;
+    background-color: #DBDBDB;
+    border-radius: 0.8rem;
+}
+
+.Question-option:hover {
+    cursor: pointer;
+}
+
+.Question-option.selected {
+    background-color: cadetblue;
+    transition: background-color 0.5s;
+}
